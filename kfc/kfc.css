@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+    font-family: var(--fontFamilyCondensed, Arial, sans-serif);
+}
+nav{
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50%;
+    background-color: white;
+}
+section{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* top: 10%; */
+}
+section ol{
+    /* border: 2px solid green; */
+    display: flex;
+    list-style: none;
+   justify-content: space-around;
+    gap: 20px;
+}
+/* section ol+ol{
+    width: 80%;
+} */
+ #b2{
+    background-image: url(./Assests/bucket_cart_icon.svg);
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 45px;
+    border: none;
+    /* margin-left: 20px; */
+ }
+section+section img{
+    height: 50px;
+    width: 50px;
+}
+#d1{
+    height: 20px;
+    width: 20px;
+}
+ #d2{
+    width:60px;
+}
+#sub_nav{
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 17.5%;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 34, 34);
+    color: white;
+}
+#sub_nav h1{
+    font-size: 15px;
+}
+#sub_nav button{
+    /* border: 2px solid green; */
+    border: none;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+#sec1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#sec1 h1{
+    font-size: 65px;
+    color: white;
+
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 37px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+#sec2 img{
+    height:50px;
+    width:  60px;
+}
+#sec2 h1{
+    width: 183%;
+    font-size:35px;
+}
+#sec3{
+    /* border: 2px solid red; */
+    height: 1000px;
+    width: 104%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sec3 div{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 345px;
+    
+}
+#sec3 img{
+    height: 250px;
+    width: 300px;
+}
+#sec3 h3{
+    font-size: 20px;
+}
+#sec3 p{
+    font-size: 15px;
+}
+#sec3 button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+}
+#sec3 span{
+    text-decoration: underline;
+}
+
+footer{
+    height: 500px;
+    margin-top: 20px;
+    background-color: #222325;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 60px 80px;
+    gap: 40px;
+}
+footer ol{
+    margin-top:50px;
+    list-style: none;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#a2{
+    height: 60px;
+}
+.a3{
+    height: 40px;
+    width: 120px;
+}
+#b1{
+    font-size: 20px;
+    gap: 20px;
+}

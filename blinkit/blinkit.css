@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    border: 1px solid gray;
+    height: 90px;
+    display: flex;
+    position: sticky;
+    gap: 8%;
+    /* width: 89%; */
+    /* padding-left: 20px; */
+    
+}
+nav #logo{
+    border: 1px solid gray;
+    height: 90px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div>img{
+    height: 90px;
+    width: 150px;
+    /* border: 2px solid green; */
+}
+nav div+aside{
+    height: 90px;
+    width: 300px;
+    /* border: 2px solid red; */
+}
+nav div+aside>div{
+    /* border: 2px solid blue; */
+    width: 280px;
+    height: 90px;
+    
+}
+#loc{
+   margin-top: -70px;
+   margin-left: 15px;
+   font-size: 12px;
+}
+#time{
+    /* padding: 0 70px 50px 0; */
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.ri-arrow-down-s-fill{
+    font-size: 20px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 420px;
+    height: 45px;
+    /* margin: auto; */
+    margin-top: 20px;
+    margin-left: -70px;
+    /* padding: 0 15px; */
+    gap: 10px;
+}
+
+.ri-search-line{
+    font-size: 22px;
+    color: gray;
+}
+
+.search{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+#login{
+    /* margin-left: 0px; */
+    margin-top: 35px;
+    gap: 20px;
+}
+button{
+    width: 110px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: gray; */
+    /* color: white; */
+    font-size: 15px;
+    
+}
+#cart{
+    margin-top: 2px;
+}
+#sec1{
+    height: 300px;
+    width: 95%;
+    /* border: 2px solid red; */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+#sec1 img{
+    height: 300px;
+    width: 85%;
+    margin-left: 90px;
+    margin-top: -3px;
+}
+#sec2{
+    height: 250px;
+    /* border: 2px solid red; */
+    width: 85%;
+    display: flex;
+    gap: 18px;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin-left:90px;
+   
+}
+#sec2 article>img{
+    height: 200px;
+    width: 325px;
+}
+#sec3{
+    height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 85%;
+    margin-left: 90px;
+}
+#sec3 img{
+    height: 170px;
+    width: 130px;
+    /* border-radius: 10px; */
+}
+.grocieries{
+    height: 180px;
+    width: 130px;
+}
+#sec4{
+    height: 150px;
+    /* border: 2px solid green; */
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin-left: 90px;
+    width: 85%;
+
+}
+footer{
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    width: 85%;
+    margin-left: 90px;
+}
+footer div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-left: 10px;
+    color: gray;
+}
+#sec5{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: gray;
+    height: 40px;
+    /* border: 2px solid green; */
+    gap: 15%;
+    width: 85%;
+    margin-left: 90px;
+}
+#sec5 div{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2px;
+    /* border: 2px solid red; */
+    margin-left: 90px; 
+}
+.ft{
+    height: 30px;
+
+}
+#lt{
+    display: flex;
+    gap: 20px;
+}
+#lt h5>svg{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    /* margin-left: 90px; */
+
+}
+#sec16{
+    /* border: 2px solid; */
+    height: 130px;
+    width: 85%;
+    margin-left: 90px; 
+}
